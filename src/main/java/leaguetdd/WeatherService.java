@@ -101,6 +101,6 @@ public class WeatherService {
             System.out.println("Humidity: " + data.get("humidity"));
         } else {
             System.out.println("Failed to fetch weather data");
-        }
+        } // Comment: "Brain malfunction"
     }
 }
